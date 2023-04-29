@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{data["name"]}}</title>
+    <style>
+body {
+  background: url('../static/img/background.png');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 0px 350px;
+}
+
+h1 {
+  font-size: 42px;
+  color: red;
+  font-family: Comic Sans MS;
+}
+
+h2 {
+  font-size: 15px;
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+h3 {
+  font-size: 25px;
+  color: red;
+  font-family: Comic Sans MS;
+}
+
+.aboba {
+  height: 300px;
+  width: 200px;
+  float: left;
+  padding: 0px 50px;
+}
+
+.screenshot {
+  height: 180px;
+  width: 250px;
+}
+
+.btn {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #2799d6; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  padding: 12px 24px; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 4px; /* Скругляем уголки */
+  transition: border-radius 0.2s ease-in;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+}
+
+.btn:hover {
+  border-radius: 16px;
+  background: #7cc1e6;
+}
+
+ul {
+  list-style-type: none;
+  margin: -10px -358px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: Comic Sans MS;
+  font-size: 24px;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.game {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="/">GGames</a></li>
+    </ul>
+    <center>
+      <h1>{{data["name"]}}</h1>
+    </center>
+    <img class="aboba" src={{data["image"]}}>
+    <h2>
+      {{data["description"]}}
+     </h2>
+    <center>
+        <div class="games">
+          {% for image in data['screenshots'] %}
+            <div class="game">
+              <img class="screenshot" src={{image}}>
+            </div>
+          {% endfor %}
+        </div>
+      </center>
+    <a href={{data["href"]}} class="btn" download>Скачать</a>
+    <h3>
+      only for windows!
+    </h3>
+  </body>
+</html>

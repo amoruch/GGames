@@ -1,0 +1,65 @@
+{
+    "games": [
+        {
+            "name": "GraphABC",
+            "image": "../static/img/GraphABC.png",
+            "href": "/games/GraphABC"
+        },
+        {
+            "name": "Лабиринт",
+            "image": "../static/img/Lab.png",
+            "href": "/games/Lab"
+        },
+        {
+            "name": "Лабиринт DE",
+            "image": "../static/img/LabDE.png",
+            "href": "/games/LabDE"
+        },
+        {
+            "name": "idk what",
+            "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/e/e8/Supreme_Commander_-_Forged_Alliance_Box_Art.jpg/274px-Supreme_Commander_-_Forged_Alliance_Box_Art.jpg",
+            "href": "/games/idk_what"
+        }
+    ],
+    "GraphABC": {
+            "name": "GraphABC",
+            "image": "../static/img/GraphABC.png",
+            "description": "GraphABC - программа созданная на языке python, с помощью которой можно строить графики, а также узнавать определенное значение при заданном x и исследовать заданный график. Приложение представляет из себя иструмент, функционал которого поможет быстрее и легче решать задачи на графики. Также у приложения небольшое окно, благодаря чему его можно поместить в любую удобную часть экрана. GraphABC является одним из моих проектов за девятый класс. Приложение выпущенно в релиз 15 ноября 2022 года.",
+            "screenshots": [
+                "../static/img/GraphABC_s1.png",
+                "../static/img/GraphABC_s2.png",
+                "../static/img/GraphABC_s3.png"
+            ],
+            "href": "../static/img/ft.png"
+    },
+    "Lab": {
+            "name": "Лабиринт",
+            "image": "../static/img/Lab.png",
+            "description": "Лабиринт - игра от 3-го лица с видом сверху. Геймплей игры заключается в том, чтобы ходить по лабиринту и стараться не умереть от голода. При нахождении выхода, игрок переходит на следующий уровень. Благодаря генерируемым уровням, забеги всегда разные, а их продолжительность зависит только от удачи игрока. Если по каким то причинам вы не можете завершить забег, то в любой момент можно сохраниться и вернуться к игре позже.",
+            "screenshots": [
+                "../static/img/Lab_s1.png",
+                "../static/img/Lab_s2.png"
+                ],
+            "href": "../static/img/ft.png"
+    },
+    "LabDE": {
+            "name": "Лабиринт DE",
+            "image": "../static/img/LabDE.png",
+            "description": "Лабиринт DE - это тот же самый лабиринт, но только без казуальщины. Теперь чтобы пройти уровень не нужно управление, тебя не торопит голод, вместо этого ты должен провести путь из точки а в точку б не касаясь препятствий. Такое управление позволяет развить мелкую моторику и заставляет игрока сосредоточится. А яркие цвета и конффети в конце уровня, сделаю геймплей более насыщенным и запоминающимся.",
+            "screenshots": [
+                "../static/img/LabDE_s1.png",
+                "../static/img/LabDE_s2.png"
+            ],
+            "href": "../static/img/ft.png"
+    },
+    "idk_what": {
+            "name": "idk what",
+            "image": "https://allgames.zone/uploads/posts/2023-04/thumbs/1681088337_star_wars_jedi_survivor_cover_art.jpg",
+            "description": "assasass",
+            "screenshots": [
+                "https://allgames.zone/uploads/posts/2023-04/thumbs/1681088337_star_wars_jedi_survivor_cover_art.jpg",
+                "https://allgames.zone/uploads/posts/2023-04/thumbs/1681088337_star_wars_jedi_survivor_cover_art.jpg"
+            ],
+            "href": "../static/img/ft.png"
+    }
+}

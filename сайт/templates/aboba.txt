@@ -1,0 +1,118 @@
+<!doctype html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>nenayebalovo</title>
+      <style>
+body {
+  background: url('../static/img/background.png');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 42px;
+  color: red;
+  font-family: Comic Sans MS;
+}
+
+h2 {
+  font-size: 15px;
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+h3 {
+  font-size: 15px;
+  color: purple;
+  font-family: Comic Sans MS;
+}
+
+.game {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: center;
+}
+
+a {
+  font-size: 20px;
+  color: red;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e75480;
+  text-decoration: underline;
+}
+
+img {
+  height: 300px;
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: -10px -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333
+}
+
+li {
+  float: left;
+}
+
+li a {
+  font-family: Comic Sans MS;
+  font-size: 24px;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+      </style>
+    </head>
+    <body>
+      <center>
+	<ul>
+  	  <li><a href="/">GGames</a></li>
+	</ul>
+        <div class="games">
+          <div class="game">
+            <img src="https://allgames.zone/uploads/posts/2023-04/thumbs/1681449603_uk_acv_meteor_complete_epic_store-portrait_1200x1600_1200x1600-e7b6afa0b434262434b32f63598bdc17.jpg">
+            <a class="game_name" href="/assasass">assasass</a>
+          </div>
+          <div class="game">
+            <img src="https://allgames.zone/uploads/posts/2023-04/thumbs/1681088337_star_wars_jedi_survivor_cover_art.jpg">
+            <a class="game_name" href="https://ru.wikipedia.org/wiki/%D0%90%D0%BC%D0%BE%D0%B3%D1%83%D1%81">starwaw</a>
+          </div>
+          <div class="game">
+            <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/e/e8/Supreme_Commander_-_Forged_Alliance_Box_Art.jpg/274px-Supreme_Commander_-_Forged_Alliance_Box_Art.jpg">
+            <a class="game_name" href="https://ru.wikipedia.org/wiki/%D0%90%D0%BC%D0%BE%D0%B3%D1%83%D1%81">MEME Commander</a>
+          </div>
+        </div>
+      <pre>
+        <h2>Немного обо мне:
+Comic Sans MS Comic Sans MS Comic Sans MS
+Comic Sans MS Comic Sans MS Comic Sans MS
+Comic Sans MS Comic Sans MS Comic Sans MS
+Comic Sans MS Comic Sans MS Comic Sans MS
+Comic Sans MS Comic Sans MS Comic Sans MS
+Comic Sans MS Comic Sans MS Comic Sans MS
+        </h2>
+      </pre>
+    </center>
+  </body>
+</html>
+

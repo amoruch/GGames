@@ -1,0 +1,55 @@
+body {
+  background: url('../static/img/background.png');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 42px;
+  color: red;
+  font-family: Comic Sans MS;
+}
+
+h2 {
+  font-size: 15px;
+  color: white;
+  font-family: Comic Sans MS;
+}
+
+h3 {
+  font-size: 15px;
+  color: purple;
+  font-family: Comic Sans MS;
+}
+
+.game {
+  text-align: center;
+  flex-basis: 33%;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  justify-content: center;
+}
+
+a {
+  font-size: 20px;
+  color: red;
+  font-family: Comic Sans MS;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e75480;
+  text-decoration: underline;
+}
+
+img {
+  height: 300px;
+  width: 200px;
+}
